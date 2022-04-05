@@ -1,0 +1,422 @@
+:root{
+	--dark-color:#191919;
+	--white-color:#FFFFFF;
+	--purple-color:rgb(117,41,149);
+	--blue-color:#00B2B1;
+	--gray-color:#828282;
+	--ligh-color:#F3F3F3;
+}
+h3{
+  color: var(--purple-color);
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+/*carrusel*/
+.micarrusel{
+  height: 400px;
+}
+/*Header*/
+.bi-balloon-heart{
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+.btn-estilo1{
+  background-color: var(--blue-color) !important;
+}
+.btn-estilo2{
+  background-color: var(--purple-color) !important;
+}
+.btn-estilo1 a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn-estilo2 a{
+    text-decoration: none;
+    color: white;
+  }
+  .btn-estilo1 i{
+    text-decoration: none;
+  }
+  .btn-estilo2 i{
+    text-decoration: none;
+  }
+.btn-color1{
+  margin-top: 30PX;
+}
+
+.header-logo{
+  width:15rem;
+}
+.header-logo img{
+  margin: 5px;
+}
+
+.minav{
+  background-color: var(--purple-color);
+  
+}
+.minav a{
+  color: var(--white-color);
+}
+.minav a:hover{
+  color: rgba(255, 255, 255, 0.699);
+}
+.minav i{
+  color: var(--white-color);
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+   background-color: rgba(255, 255, 255, 0.288);
+  border: 0.5 px solid var(--purple-color);
+  border-radius: 0.25rem;
+  
+}
+.navbar-collapse input {
+  padding-right: 0px;
+}
+.input-group {
+
+ margin-right: 1rem;
+}
+.padding-li-index{
+  padding-left: 700px ;
+}
+.agenda{
+  background-image: url(../IMAGENES/fondo.jpg);
+}
+
+.agenda{
+  padding: 20px;
+  width:80%;
+}
+.agenda button{
+  color: white;
+}
+.promocion{
+  padding: 20px;
+  width:20%;
+}
+.especialistas p{
+font-weight: bold;
+}
+
+
+.micarrusel h5 {
+  color: var(--blue-color);
+  font-weight: bolder;
+}
+.micard-contat img{
+  width: 200px;
+}
+.escribenos{
+  margin: 1rem auto;
+  color: white;
+  width: 700px;
+  background-color: var(--purple-color);
+  border-radius: 20px;
+}
+.escribenos h3{
+  color: white;
+}
+.miform-btn input{
+  background-color: var(--blue-color);
+}
+.misummit{
+  margin: 1rem auto;
+}
+.sec-tips{
+  width: 70%;
+  background-image: url(../IMAGENES/fondo.jpg);
+  margin: 1rem auto;
+  padding: 2rem;
+}
+.box-milog{
+  
+  margin: 10px auto;
+  color: white;
+  width: 300px;
+  background-color: var(--blue-color);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.user-side{
+  background-color: var(--dark-color);
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+.user-side li{
+  list-style: none !important;
+  padding-left:10px;
+}
+
+.miaside a:hover{
+ color: var(--purple-color);
+}
+.midash{
+  margin-top: 2rem;
+}
+
+.dash-item{
+  color: white;
+}
+.tabla-product thead{
+  background-color: var(--purple-color);
+  color: white;
+}
+.buscar-barra{
+  margin: 30px;
+}
+
+/*card-servicios*/
+
+.grid-container-services{
+  margin:20px;
+}
+.micard img{
+  width: 150px;
+  
+  }
+  .micard h5{
+    color: var(--purple-color);
+    font-weight: bold;
+  }
+  .card-img-service{
+    width: 180px;
+  }
+  .box1{
+   position: fixed;
+  }
+  .box2{
+    position: fixed;
+  }
+  .boxed{
+    margin-right: 50px;
+    float: left;
+  }
+
+  .title-color{
+    color:var(--purple-color);
+  }
+  .card{
+    border: none !important;
+  }
+  .radio-img-services{
+    border-radius: 60px;
+  }
+/*tips*/
+.bannertip{
+  width: 1600px;
+}
+
+#tipstodo{
+  padding: 15px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 2000px;
+  font-size: 15px;
+  flex-basis: 100%;
+}
+.tipstodo h3{
+  font-size: 20;
+}
+
+.tip1 {
+  display: flex;
+  width: 1300spx;
+  text-align: justify;
+  padding: 5px;
+  justify-content: center;
+
+}
+.t1{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(187, 150, 187);
+  height: 180px;
+  margin-top: 50px;
+  padding: 10px;
+}
+.t1 h2{
+  color: purple;
+}
+.tip_1{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.t2 h2{
+  color: purple;
+}
+.t2{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(187, 150, 187);
+  height: 200px;
+  margin-top: 50px;
+  padding: 10px;
+
+  }
+.tip_2{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/*Footer*/
+.icon-footer i{
+  color: white;
+}
+.icon-footer i{
+  font-size: 40px;
+  margin: 5px;
+}
+.footer{
+  color: white;
+}
+
+footer{
+  background-image: url(../IMAGENES/fondo.jpg);
+  max-width:100%;
+  margin:0;
+  }
+  .mifooter{
+    background-color:rgba(117, 41, 149, 0.384);
+  }
+  .logo-vet-login img{
+    width:400px;
+  }
+  .estilo-fondo-logo{
+    background-color: var(--gray-color);
+  }
+  
+  .size-btn-green{
+    background-color:var(--blue-color)!important;
+    height: 35px !important;
+    width: 250px !important;
+    font-size: 16px !important;
+    border:2px !important;
+  
+  }
+  
+  .size-btn-purple{
+    background-color:var(--purple-color)!important;
+    height: 35px !important;
+    width: 250px !important;
+    font-size: 16px !important;
+    border:2px !important;
+  }
+  .main-section{
+    margin:0 auto;
+    margin-top:0;
+    padding: 0;
+  }
+  
+  .modal-content{
+    background-color: #d2d9e0;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+  }
+  .user-img{
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .user-img img{
+    width: 70xp;
+    height: 70px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+  }
+
+  
+  #user-group label{
+    font-weight:bold;
+    padding-right: 80%;
+    margin: 2px;
+  }
+  #contrasena-group label{
+    font-weight:bold;
+    padding-right: 80%;
+    margin: 2px;
+  }
+  
+  
+  #contrasena-group input{
+    margin: 10px 0px; }
+  .form-control{
+    background-color: white !important;
+  }
+  
+   
+  button{
+    
+    margin: 5px 5px 25px;
+  }
+  
+  .forgot{
+    padding: 10px 0;
+    font-size:16px;
+    margin-bottom: 10px;
+  }
+  
+  .forgot a{
+    color: var(--blue-color);
+  }
+
+  .size-btn-green a{
+    color: white;
+    text-decoration: none;
+  }
+
+  /*contacto*/
+  .bannercont{
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    }
+    
+    .info-contacto{
+       
+       padding-top: 100px;
+       padding-left: 800px;
+       height: 100px;
+       width:  810px;
+    }
+    
+    .icon{
+       width:30rem;
+       text-align: center;
+       height: 3rem;
+    }
+    .tse{
+     text-align: center;
+     font-weight: bold;
+    }
+    
+    #contacto{
+      padding: 2rem;
+      text-align: center;
+    }
+    
+    .mapa iframe{
+    
+      border: 7px solid var(--purple-color);
+      text-align: center;
+     
+    
+    }
+    
